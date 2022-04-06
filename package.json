@@ -1,0 +1,19 @@
+{
+  "name": "MonoRepoUniversity",
+  "version": "1.0.0",
+  "description": "Usado para deixar tudo organizado pelo Github, RGM: ",
+  "repository": "git@github.com:QuintansC/Universidade.git",
+  "author": "Gustavo Quintans",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/AplForNet/AulaFour/PROFAJAX", 
+      "packages/Python/*"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace @monorepo/profajax start",
+    "python": "yarn workspace @monorepo/Python start"
+  }
+}
