@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/OrganArchitecture",
+  "version": "1.0.0",
+  "description": "Organização e arquitetura de computadores",
+  "main": "index.js",
+  "author": "Gustavo Quintans",
+  "license": "MIT"
+}
