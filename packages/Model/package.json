@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/model",
+  "version": "1.0.0",
+  "description": "Modelagem de negocios e requisitos",
+  "main": "index.js",
+  "author": "Gustavo Quintans",
+  "license": "MIT"
+}

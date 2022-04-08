@@ -1,6 +1,7 @@
 {
   "name": "@monorepo/python",
   "version": "1.0.0",
+  "author": "Gustavo Quintans",
   "license": "MIT",
   "scripts": {
     "start": "/bin/python 'Atividade 17.py'"
