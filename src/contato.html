@@ -18,22 +18,20 @@
   </header>
 
   <main>
-    <form name="meu_form">
+    <form name="fomulario">
 
       <h1>Entre em contato</h1>
-
-      <input type="text" placeholder="Tiago Vale" required="required" name="nome" />
       <label for="nome">Nome</label>
-
-      <input type="tel" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-      <label for="fone">Fone</label>
-
-      <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+      <input type="text" placeholder="Seu Nome" required="required" name="nome" />
+      
+      <label for="tel">Telefone</label>
+      <input type="tel" placeholder="(xx)xx-xx-xx-xx" name="tel" />
+      
       <label for="email">Email</label>
-
-      <textarea placeholder="Deixe sua opnião"></textarea>
-
-      <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+      <input type="email" placeholder="seuemail@mail.com" name="email" />
+      
+      <textarea placeholder="Deixe aqui a sua mensagem"></textarea>
+      <button class="enviar"> Enviar </button>
     </form>
   </main>
 </body>

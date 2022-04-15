@@ -39,3 +39,55 @@ main{
 figcaption{
   color: white;
 }
+iframe{
+  width: 400px;
+  height: 300px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  background-color: rgb(221, 221, 221);
+  padding: 50px 25px;
+  position: relative;
+}
+
+form h1 {
+  position: relative;
+  margin: 0px 15%;
+}
+
+main.music{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  color: wheat;
+}
+
+.music .letra{
+  overflow: auto;
+  height: 600px;
+}
+.music .letra::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(53, 53, 53, 0.247);
+  border-radius: 5px;
+}
+.music .letra::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: black;
+}
+
+.music .letra::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
