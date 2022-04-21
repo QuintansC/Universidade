@@ -4,6 +4,14 @@
   "author": "Gustavo Quintans",
   "license": "MIT",
   "scripts": {
-    "start": "/bin/python 'Atividade 17.py'"
+    "start": "/bin/python 'Atividade 17.py'",
+    "atv3-ex1": "/bin/python 'Atividade3/ex1.py'",
+    "atv3-ex2": "/bin/python 'Atividade3/ex2.py'",
+    "atv3-ex3": "/bin/python 'Atividade3/ex3.py'",
+    "atv3-ex4": "/bin/python 'Atividade3/ex4.py'",
+    "atv3-ex5": "/bin/python 'Atividade3/ex5.py'",
+    "atv3-ex6": "/bin/python 'Atividade3/ex6.py'",
+    "atv3-ex7": "/bin/python 'Atividade3/ex7.py'",
+    "atv3-ex8": "/bin/python 'Atividade3/ex8.py'"
   }
 }
