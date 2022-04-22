@@ -1,0 +1,254 @@
+1)
+  def trataNumbers(numberFirst: int, numberSecond):
+  if(numberFirst > numberSecond):
+    return numberFirst
+  else:
+    if(numberFirst == numberSecond):
+      return 'Os numeros são iguais'
+    else:
+      return numberSecond
+
+entradaPrimeiroValor = int(input("Primeiro valor de entrada?: "))
+entradaSegundoValor = int(input("Segundo valor de entrada?: "))
+
+result = trataNumbers(entradaPrimeiroValor, entradaSegundoValor)
+
+print(result)
+2)
+  def trataNumbers(parameter: int):
+  if(parameter > 0):
+    return 'Esse numero é positivo'
+  else:
+    if(parameter == 0):
+      return 'Esse numero é zero'
+    else:
+      return 'Esse numero é negativo'
+
+value = int(input("Insira aqui o valor que deseja saber seu sinal: "))
+result = trataNumbers(value)
+
+print(result)
+3)
+def trataLetters(parameter: str):
+  parameter = parameter.lower()
+  if(parameter == 'f'):
+    return 'Feminino'
+  else:
+    if(parameter != 'f' and parameter != 'm') :
+      return 'Sexo inválido'
+    else:
+      return 'Masculino'
+print("F - Feminino / M - Masculino")
+character = str(input("Qual seu Sexo?: "))
+result = trataLetters(character)
+
+print(result)
+
+4)
+def continus(parameter: bool):
+  continuar =  input('Deseja continuar?')
+  continuar = continuar.lower()
+  if(continuar == 's' or continuar == 'y' or continuar == 'sim' or continuar == 'yes'):
+    parameter == False
+  else:
+    exit()
+
+vogais = ['a', 'e', 'i', 'o', 'u']
+exits = False
+while (exits == False):
+  letter =  input('Digite aqui a Letra: ')
+  for vogal in vogais:
+    if(letter == vogal):
+      print("A Letra é uma vogal \n")
+      break
+    else:
+      print("A Letra é uma consoante \n")
+      break
+  continus(exits)
+
+
+5)
+def calculaMedia(nota1: int, nota2: int):
+  media = (nota1+nota2)/2 
+  return media
+
+def avaliacao(nota: int):
+  if(nota == 10):
+    return 'Aprovado com Distinção'
+  elif(nota >= 7):
+    return 'Aprovado'
+  else:
+    return 'Reprovado'
+
+nota1 = int(input("Primeira nota?: "))
+nota2 = int(input("Segunda nota?: "))
+
+result = calculaMedia(nota1, nota2)
+result = avaliacao(result)
+print(result)
+6)
+def trataNumbers(numberFirst: int, numberSecond: int, numberThird: int):
+  if(numberFirst > numberSecond and numberFirst > numberThird):
+    return numberFirst
+  else:
+    if(numberSecond > numberFirst and numberSecond > numberThird):
+      return numberSecond
+    else:
+      return numberThird
+
+entradaPrimeiroValor = int(input("Primeiro valor de entrada?: "))
+entradaSegundoValor = int(input("Segundo valor de entrada?: "))
+entradaTerceiroValor = int(input("Terceiro valor de entrada?: "))
+
+result = trataNumbers(entradaPrimeiroValor, entradaSegundoValor, entradaTerceiroValor)
+
+print(result)
+7)
+def trataNumbers(numberFirst: int, numberSecond: int, numberThird: int):
+  if(numberFirst > numberSecond and numberFirst > numberThird):
+    if(numberSecond < numberThird):
+      return [numberFirst, numberSecond]
+    else:
+      return [numberFirst, numberThird]
+  else:
+    if(numberSecond > numberFirst and numberSecond > numberThird):
+      if(numberThird<numberFirst):
+        return [numberSecond, numberThird]
+      else:
+        return [numberSecond, numberFirst]
+    else:
+      if(numberSecond < numberFirst):
+        return [numberThird, numberSecond]
+      else: 
+        return [numberThird, numberFirst]
+
+entradaPrimeiroValor = int(input("Primeiro valor de entrada?: "))
+entradaSegundoValor = int(input("Segundo valor de entrada?: "))
+entradaTerceiroValor = int(input("Terceiro valor de entrada?: "))
+
+result = trataNumbers(entradaPrimeiroValor, entradaSegundoValor, entradaTerceiroValor)
+
+print("\n O maior valor é: " + str(result[0]) +" \n O menor valor é: "+ str(result[1]))
+8)
+def trataNumbers(priceFirst: int, priceSecond: int, priceThird: int):
+  if(priceFirst > priceSecond and priceFirst > priceThird):
+    if(priceSecond < priceThird):
+      return [priceFirst, priceSecond]
+    else:
+      return [priceFirst, priceThird]
+  else:
+    if(priceSecond > priceFirst and priceSecond > priceThird):
+      if(priceThird<priceFirst):
+        return [priceSecond, priceThird]
+      else:
+        return [priceSecond, priceFirst]
+    else:
+      if(priceSecond < priceFirst):
+        return [priceThird, priceSecond]
+      else: 
+        return [priceThird, priceFirst]
+
+entradaProd1 = float(input("Valor do Primeiro Produto?: "))
+entradaProd2 = float(input("Valor do Segundo produto?: "))
+entradaProd3 = float(input("Valor do Terceiro de entrada?: "))
+
+result = trataNumbers(entradaProd1, entradaProd2, entradaProd3)
+
+print("O produto mais barato custa: "+ str(result[1]))
+9)
+values = [
+  int(input("Primeiro valor: ")),
+  int(input("Segundo Valor: ")),
+  int(input("Terceiro Valor: "))
+]
+values.sort()
+print(values)
+10)
+def trataTxt(text: str):
+  newChar = text.lower()
+  if(newChar == "m"):
+    return 'Bom dia!'
+  elif(newChar == "n"):
+    return 'Boa noite!'
+  elif(newChar == "v"):
+    return 'Boa tarde!'
+  else:
+    return 'Valor inválido!'
+
+print('Turnos: \n M - Matutino / V - Vespertino / N - Noturno')
+result = str(input('Qual turno você estuda?: '))
+
+result = trataTxt(result)
+print(result)
+11)
+def calculaDesconto(salario: float):
+  if(salario < 280.00):
+    return [salario * 0.20, '20%']
+  else:
+    if(salario > 280.00 and salario < 700.00):
+      return [salario * 0.15, '15%']
+    else:
+      if(salario > 700.00 and salario < 1500.00):
+        return [salario * 0.10, '10%']
+      else:
+        return [salario * 0.05, '5%']
+        
+salarioAtual = float(input('Qual é o salário?: '))
+arrayDeReajustes = calculaDesconto(salarioAtual)
+salarioComReajuste = salarioAtual + arrayDeReajustes[0]
+print(
+  "\n O antigo salário é: "+ str(salarioAtual)+
+  "\n O valor do Reajuste foi de: "+ str(arrayDeReajustes[0])+
+  "\n O Reajuste foi de: "+ str(arrayDeReajustes[1])+
+  "\n O novo salário é: "+ str(salarioComReajuste) + "\n"
+)
+
+12)
+def trataImpostoDeRenda(salario: float):
+  if(salario < 900.00):
+    return [0, ' 0%']
+  else:
+    if(salario > 900.00 and salario < 1500.00):
+      return [salario * 0.05, ' 5%']
+    else:
+      if(salario > 1500.00 and salario < 2500.00):
+        return [salario * 0.10, '10%']
+      else:
+        return [salario * 0.20, '20%']
+
+horas = float(input('Qual é o carga horária mensal?: '))
+precoHoras = float(input('Qual é o valor por hora?: '))
+
+salarioBruto = horas * precoHoras
+
+ir = trataImpostoDeRenda(salarioBruto)
+inss = salarioBruto*0.10
+fgts = salarioBruto*0.11
+sindicato = salarioBruto*0.03
+
+somaDescontos = ir[0] + inss + sindicato
+salarioLiquido = salarioBruto - somaDescontos
+
+print(
+  "\n O salário Bruto é:       R$"+ str(salarioBruto)+
+  "\n (-) IR ("+ir[1]+"):            R$"+ str(ir[0])+
+  "\n (-) INSS (10%):          R$"+ str(inss)+
+  "\n FGTS (11%):              R$"+ str(fgts) + 
+  "\n Sindicato (3%):          R$"+ str(sindicato) + "\n"+
+  "\n Total de Descontos:      R$"+ str(somaDescontos)+
+  "\n Salário Líquido:         R$"+ str(salarioLiquido)
+)
+
+13)
+
+def validaDia(value: int, dias: []):
+  if(value > 7):
+    return 'Valor inválido'
+  else:
+    result = value -1
+    return dias[result]
+
+diaDaSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
+valueData = int(input('Qual dia da semana?: '))
+
+print(validaDia(valueData, diaDaSemana))

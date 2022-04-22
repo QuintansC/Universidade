@@ -12,6 +12,11 @@
     "atv3-ex5": "/bin/python 'Atividade3/ex5.py'",
     "atv3-ex6": "/bin/python 'Atividade3/ex6.py'",
     "atv3-ex7": "/bin/python 'Atividade3/ex7.py'",
-    "atv3-ex8": "/bin/python 'Atividade3/ex8.py'"
+    "atv3-ex8": "/bin/python 'Atividade3/ex8.py'",
+    "atv3-ex9": "/bin/python 'Atividade3/ex9.py'",
+    "atv3-ex10": "/bin/python 'Atividade3/ex10.py'",
+    "atv3-ex11": "/bin/python 'Atividade3/ex11.py'",
+    "atv3-ex12": "/bin/python 'Atividade3/ex12.py'",
+    "atv3-ex13": "/bin/python 'Atividade3/ex13.py'"
   }
 }
