@@ -7,9 +7,41 @@ body{
   background-color: #fcfff5;
 }
 
+p{
+  text-align: center;
+}
+
 header{
   background-color: #193441;
   color: #fff;
   height: 50px;
   padding: 40px 20px;
+}
+
+.principal{
+  width: 800px;
+  margin: 0 auto;
+  height: 1550px;
+}
+
+figure{
+  position: relative;
+  margin: 15px auto;
+  border: 1px solid black;
+  width: 400px;
+}
+
+figure figcaption{  
+ text-align: center;
+}
+
+figure img{
+  width: 400px;
+  height: 250px;
+}
+
+footer{
+  background-color: #91aa9d;
+  text-align: center;
+  padding: 10px 0;
 }
