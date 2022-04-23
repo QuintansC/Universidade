@@ -1,0 +1,41 @@
+body{
+  background-image: url('../images/background.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#navigator{
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: rgba(121, 121, 121, 0.404);
+  padding: 15px;
+}
+
+#navigator a{
+  text-decoration: none;
+  color: white;
+}
+
+.title{
+  color: white;
+}
+h1{
+  position: absolute;
+  margin-top: -50px;
+}
+img{
+  width: 250px;
+}
+
+main{
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+figcaption{
+  color: white;
+}
