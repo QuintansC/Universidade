@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+#sec-esq {
+    border: 1px solid #000000;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 240px;
+    height: 840px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+#sec-esq h1 {
+    margin-top: 350px;
+    color: #003cff;
+    font-size: 24pt;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#sec-claro {
+    border-radius: 15px;
+    float: left;
+    width: 710px;
+    height: 420px;
+    border: 1px solid #ff0000;
+    box-sizing: border-box;
+    margin: 0 0 20px 5px;
+    box-shadow: 5px 5px 20px #ff0000;
+}
+
+#sec-oi {
+    border-radius: 15px;
+    float: left;
+    width: 710px;
+    height: 400px;
+    border: 1px solid #ffcc33;
+    box-sizing: border-box;
+    margin: 0 0 20px 5px;
+    box-shadow: 5px 5px 20px #ffcc33;
+}
+
+figure {
+    width: 100px;
+    padding: 0;
+    margin: 10px 0 0 10px;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    text-align: justify;
+}
+
+ul {
+    margin: 20px;
+}
+
+ul li {
+    margin: 0;
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#planos {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+}
+
+#select {
+    margin-bottom: 20px;
+    display: block;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 960px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    clear: both;
+}
